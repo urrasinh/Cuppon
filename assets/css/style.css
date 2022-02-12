@@ -1,0 +1,85 @@
+:root {
+    --color-principal: #28a745;
+
+}
+
+body {
+    text-align: center;
+    background: #ffffff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: left;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #707070
+}
+
+.logo {
+    height: 25px;
+}
+
+.navbar {
+    background-color: var(--color-principal);
+}
+
+
+
+
+
+.txt-gris {
+    color: #707070;
+    font-weight: 300;
+
+}
+
+.precio {
+    display: inline-block;
+    color: #707070;
+    font-size: 16px;
+}
+
+.precio-oferta {
+    display: inline-block;
+    color: var(--color-principal);
+    font-size: 20px;
+}
+
+.formulario {
+    background-color: var(--color-principal);
+}
+
+.pie-pagina {
+    padding: 30px;
+    text-align: center;
+
+}
